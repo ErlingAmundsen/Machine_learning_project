@@ -1,0 +1,106 @@
+// Decision Tree
+digraph {
+	"fd2aa51c-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: feature: 546 <= 0.5
+Datapoints: 10000
+Impurity: 0.6532624442831322" color=black fillcolor=beige shape=box style=filled]
+	"fd2ab854-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 549 <= 0.5
+Datapoints: 1801
+Impurity: 0.09775475498605793" color=black fillcolor=beige shape=box style=filled]
+	"fd2aa51c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ab854-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2abb92-8d35-11ed-bd73-8c85900ec8b2" [label="T-shirt/top" color="#0000ff" fontcolor=white style=filled]
+	"fd2ab854-8d35-11ed-bd73-8c85900ec8b2" -> "fd2abb92-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2abdc2-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 602 <= 0.5
+Datapoints: 1718
+Impurity: 0.05262278567427249" color=black fillcolor=beige shape=box style=filled]
+	"fd2ab854-8d35-11ed-bd73-8c85900ec8b2" -> "fd2abdc2-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ac038-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 347 <= 0.5
+Datapoints: 1645
+Impurity: 0.017810288327005576" color=black fillcolor=beige shape=box style=filled]
+	"fd2abdc2-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ac038-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ac29a-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 91 <= 0.5
+Datapoints: 7
+Impurity: 0.0" color=black fillcolor=beige shape=box style=filled]
+	"fd2ac038-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ac29a-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ac4ca-8d35-11ed-bd73-8c85900ec8b2" [label="T-shirt/top" color="#0000ff" fontcolor=white style=filled]
+	"fd2ac29a-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ac4ca-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ac7c2-8d35-11ed-bd73-8c85900ec8b2" [label=Shirt color="#800080" fontcolor=white style=filled]
+	"fd2ac29a-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ac7c2-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ac9c0-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 96 <= 0.5
+Datapoints: 1638
+Impurity: 0.013982553713605187" color=black fillcolor=beige shape=box style=filled]
+	"fd2ac038-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ac9c0-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2acc36-8d35-11ed-bd73-8c85900ec8b2" [label="T-shirt/top" color="#0000ff" fontcolor=white style=filled]
+	"fd2ac9c0-8d35-11ed-bd73-8c85900ec8b2" -> "fd2acc36-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2acf56-8d35-11ed-bd73-8c85900ec8b2" [label=Trouser color="#ffac1c" fontcolor=white style=filled]
+	"fd2ac9c0-8d35-11ed-bd73-8c85900ec8b2" -> "fd2acf56-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ad1d6-8d35-11ed-bd73-8c85900ec8b2" [label=Trouser color="#ffac1c" fontcolor=white style=filled]
+	"fd2abdc2-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ad1d6-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2ad5aa-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 621 <= 0.5
+Datapoints: 8199
+Impurity: 0.622030747707097" color=black fillcolor=beige shape=box style=filled]
+	"fd2aa51c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2ad5aa-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2afabc-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 173 <= 0.5
+Datapoints: 4950
+Impurity: 0.4837253241490898" color=black fillcolor=beige shape=box style=filled]
+	"fd2ad5aa-8d35-11ed-bd73-8c85900ec8b2" -> "fd2afabc-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b008e-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 623 <= 0.5
+Datapoints: 2763
+Impurity: 0.46887362273871536" color=black fillcolor=beige shape=box style=filled]
+	"fd2afabc-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b008e-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b039a-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 657 <= 0.5
+Datapoints: 1923
+Impurity: 0.3235132438303776" color=black fillcolor=beige shape=box style=filled]
+	"fd2b008e-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b039a-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b061a-8d35-11ed-bd73-8c85900ec8b2" [label=Trouser color="#ffac1c" fontcolor=white style=filled]
+	"fd2b039a-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b061a-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b080e-8d35-11ed-bd73-8c85900ec8b2" [label=Dress color="#ee4b2b" fontcolor=white style=filled]
+	"fd2b039a-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b080e-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b09da-8d35-11ed-bd73-8c85900ec8b2" [label=Dress color="#ee4b2b" fontcolor=white style=filled]
+	"fd2b008e-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b09da-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b0b9c-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 453 <= 0.5
+Datapoints: 2187
+Impurity: 0.3850516908927992" color=black fillcolor=beige shape=box style=filled]
+	"fd2afabc-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b0b9c-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b1024-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 106 <= 0.5
+Datapoints: 1925
+Impurity: 0.3213054477989542" color=black fillcolor=beige shape=box style=filled]
+	"fd2b0b9c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b1024-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b147a-8d35-11ed-bd73-8c85900ec8b2" [label="T-shirt/top" color="#0000ff" fontcolor=white style=filled]
+	"fd2b1024-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b147a-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b1678-8d35-11ed-bd73-8c85900ec8b2" [label="T-shirt/top" color="#0000ff" fontcolor=white style=filled]
+	"fd2b1024-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b1678-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b184e-8d35-11ed-bd73-8c85900ec8b2" [label=Shirt color="#800080" fontcolor=white style=filled]
+	"fd2b0b9c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b184e-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b1a10-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 46 <= 0.5
+Datapoints: 3249
+Impurity: 0.408568415437662" color=black fillcolor=beige shape=box style=filled]
+	"fd2ad5aa-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b1a10-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b1f60-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 770 <= 0.5
+Datapoints: 1089
+Impurity: 0.3255563738638395" color=black fillcolor=beige shape=box style=filled]
+	"fd2b1a10-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b1f60-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b23ac-8d35-11ed-bd73-8c85900ec8b2" [label=Shirt color="#800080" fontcolor=white style=filled]
+	"fd2b1f60-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b23ac-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b28f2-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 119 <= 0.5
+Datapoints: 601
+Impurity: 0.1414862206133782" color=black fillcolor=beige shape=box style=filled]
+	"fd2b1f60-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b28f2-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b3fb8-8d35-11ed-bd73-8c85900ec8b2" [label=Pullover color="#228b22" fontcolor=white style=filled]
+	"fd2b28f2-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b3fb8-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b4562-8d35-11ed-bd73-8c85900ec8b2" [label=Shirt color="#800080" fontcolor=white style=filled]
+	"fd2b28f2-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b4562-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b488c-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 770 <= 0.5
+Datapoints: 2160
+Impurity: 0.3667473312231377" color=black fillcolor=beige shape=box style=filled]
+	"fd2b1a10-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b488c-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b4b5c-8d35-11ed-bd73-8c85900ec8b2" [label="Feature: 698 <= 0.5
+Datapoints: 1540
+Impurity: 0.24063157181801248" color=black fillcolor=beige shape=box style=filled]
+	"fd2b488c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b4b5c-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b4e5e-8d35-11ed-bd73-8c85900ec8b2" [label=Pullover color="#228b22" fontcolor=white style=filled]
+	"fd2b4b5c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b4e5e-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b593a-8d35-11ed-bd73-8c85900ec8b2" [label=Pullover color="#228b22" fontcolor=white style=filled]
+	"fd2b4b5c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b593a-8d35-11ed-bd73-8c85900ec8b2"
+	"fd2b5d86-8d35-11ed-bd73-8c85900ec8b2" [label=Pullover color="#228b22" fontcolor=white style=filled]
+	"fd2b488c-8d35-11ed-bd73-8c85900ec8b2" -> "fd2b5d86-8d35-11ed-bd73-8c85900ec8b2"
+}
